@@ -50,10 +50,8 @@ custom_logger/
 
 ### 📥 Instale via GitHub | Install via GitHub
 ```bash
-git clone https://github.com/seu-usuario/custom_logger.git
+git clone https://github.com/AluanLuiz/CustomLogger.git
 cd custom_logger
-📦 Instale os requisitos | Install dependencies
-pip install -r requirements.txt
 ```
 
 ---
