@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "custom_logger"
+version = "0.1.0"
+description = "Uma ferramenta para gerar Logs customizados."
+authors = [{ name = "Aluan Luiz Maturi Horschutz"}]
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+
+[project.scripts]
+strutils = "custom_logger"
