@@ -4,18 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "custom_logger"
-version = "0.1.0"
-description = "Uma ferramenta para gerar Logs customizados."
+version = "0.1.4"
+description = "Uma ferramenta para agilizar e organizar os logs. | A tool to streamline and organize logs."
 readme = "README.md"
 authors = [{ name = "Aluan Luiz Maturi Horschutz" }]
 license = { text = "MIT" }
-requires-python = ">=3.9, <4"
+requires-python = ">=3.8, <4"
 dependencies = []
 
-[project.urls]
-Homepage = "https://github.com/AluanLuiz/CustomLogger"
-
-[project.classifiers]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -25,3 +21,6 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "License :: OSI Approved :: MIT License",
 ]
+
+[project.urls]
+Homepage = "https://github.com/AluanLuiz/CustomLogger"
